@@ -7,13 +7,15 @@ public class Task4 {
         String fun2="The quick brown fox jumps over the lazy dog ";
         String fun3="The quick brown fox jumps over the lazy Dog ";
         String big_msg=fun1+fun2+fun3;
-        int words=0;
-        for(int i=0;i<big_msg.length();i++)
+        String check_word="fox";
+        String words[]=big_msg.split(" ");
+        int count=0;
+        for(String i:words)
         {
-            if(big_msg.charAt(i)==' ')
-               words++;
+            if(i.equals(check_word))
+                count++;
         }
-        System.out.println("The string has "+words+" words");
+        System.out.println("The Fox appears "+count+" times");
         
     }
 }
