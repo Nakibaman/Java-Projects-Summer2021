@@ -3,7 +3,6 @@ package summer2021lab4;
 
 import javax.swing.JOptionPane;
 
-
 public class Amnitei2 {
     public static void main(String[] args) {
         String reply=JOptionPane.showInputDialog("Enter array size -");
@@ -20,7 +19,6 @@ public class Amnitei2 {
             if(array[i]>max)
                 max=array[i];
         }
-        JOptionPane.showMessageDialog(null, "The max value is - "+max);
-                
+        JOptionPane.showMessageDialog(null, "The max value is - "+max);    
     }
 }
