@@ -1,14 +1,18 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package summer2021lab5;
 
-/**
- *
- * @author Kheya
- */
-public class CR {
+
+public class CR extends Student{
+    String cell_no;
+    String contact_address;
     
+    void setCrInfo(String a,String b)
+    {
+        cell_no=a;
+        contact_address=b;
+    }
+    void getCrInfo()
+    {
+        System.out.println("His/Her cell no. is :"+cell_no+" Contact address :"+contact_address);
+    }
 }
