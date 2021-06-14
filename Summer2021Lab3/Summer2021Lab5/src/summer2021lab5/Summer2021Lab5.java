@@ -15,5 +15,5 @@ public class Summer2021Lab5 {
         
         System.out.println(udmax(23,12));    
     }
-    
+   
 }
