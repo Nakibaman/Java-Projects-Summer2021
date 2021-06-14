@@ -13,8 +13,7 @@ public class Summer2021Lab5 {
     
     public static void main(String[] args) {   
         
-        System.out.println(udmax(23,12));
-          
+        System.out.println(udmax(23,12));    
     }
     
 }
